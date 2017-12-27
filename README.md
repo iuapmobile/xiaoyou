@@ -10,7 +10,7 @@ https://aiserver.yonyoucloud.com/xiaoyou/openapi/xy/api/getxiaoyouinfo?userid=de
     
     
 # 搜索人员服务
-    地址：https://aiserver.yonyoucloud.com/openapi/xy/api/searchyonyoustaff?q=姚 
+   地址：https://aiserver.yonyoucloud.com/openapi/xy/api/searchyonyoustaff?q=姚     
     返回值如下：    
     
     {
@@ -46,7 +46,7 @@ https://aiserver.yonyoucloud.com/xiaoyou/openapi/xy/api/getxiaoyouinfo?userid=de
     }
       
 # 搜索原子服务
-    地址：https://aiserver.yonyoucloud.com/xiaoyou/openapi/xy/api/searchyonyouatomservices?q=查    
+   地址：https://aiserver.yonyoucloud.com/xiaoyou/openapi/xy/api/searchyonyouatomservices?q=查    
     返回值如下：    
     
     {
