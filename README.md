@@ -10,12 +10,12 @@ https://aiserver.yonyoucloud.com/xiaoyou/openapi/xy/api/getxiaoyouinfo?userid=de
     
     
 # 搜索人员服务
-    人员信息afdjafl 
+    地址：https://aiserver.yonyoucloud.com/openapi/xy/api/searchyonyoustaff?q=姚 
+    返回值如下：    
     
     {
       "response": {
-        "result": [
-            {
+            "result": [{
                 "name": "姚博",
                 "mobile": "13810558787",
                 "id": "04167132-e2e4-4b9e-8aee-7abe9aaddf77",
@@ -38,11 +38,39 @@ https://aiserver.yonyoucloud.com/xiaoyou/openapi/xy/api/getxiaoyouinfo?userid=de
                 "mobile": "15011050667",
                 "id": "ff4631d7-a212-4e7c-825a-313a5b6f3d52",
                 "email": "yaowh@yonyou.com"
-            }
-        ]
-      },
-      "responseHeader": {
-        "status": "0"
-      }
+            }]
+        },
+        "responseHeader": {
+            "status": "0"
+        }
     }
       
+# 搜索原子服务
+    地址：https://aiserver.yonyoucloud.com/xiaoyou/openapi/xy/api/searchyonyouatomservices?q=查    
+    返回值如下：    
+    
+    {
+        "response": {
+            "result": [{
+                "name": "查社保",
+                "id": "094a14f0-a30a-49d1-a73f-78e019c5123d"
+            },
+            {
+                "name": "凭证查询",
+                "id": "1df619dc-fcdd-4a1c-9345-3f9600db806b"
+            },
+            {
+                "name": "查薪资",
+                "id": "ac5dd3f2-b1d8-412d-8be2-69d528706766"
+            },
+            {
+                "name": "假勤档案查看",
+                "id": "edfa5b5f-8735-4f7c-8bc6-c0c478c52a82"
+            }]
+        },
+        "responseHeader": {
+            "status": "0"
+        }
+    }
+    
+      
